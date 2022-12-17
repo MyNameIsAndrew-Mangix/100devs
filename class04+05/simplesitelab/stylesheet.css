@@ -1,0 +1,47 @@
+body {
+    background-color: #87CEEB;
+    color: #FFFFFFFF;
+    padding: 10px;
+}
+
+div {
+    
+    border: 5px #48CD31 solid;
+    max-width: 700px;
+    padding: 25px;
+}
+
+img {
+    max-width: 200px;
+    float: right;
+}
+h1, ul {
+   text-align: center;
+}
+li {
+    display: inline;
+}
+
+h1, h2, li {
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+h2, li {
+     font-weight: 900;
+     font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+a {
+ color: #4ACC99;
+}
+
+li + li {
+    border-left: 3px grey solid;
+    padding-left: 4px;
+}
