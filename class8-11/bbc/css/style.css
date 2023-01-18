@@ -22,19 +22,93 @@
 /*******************************************/
 
 body {
-
+  font-family: 'Courier New', Courier, monospace;
 }
 
+ main a, main a *, .bbctrending * {
+  text-decoration: none;
+  color: black;
+}
 
+section h3 {
+  border-left: .4em solid red;
+  padding: 1%;
+  margin: 1%;
+  font-size: 1.5em;
+}
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+header nav * {
+  color: white;
+  background-color: black;
+  display: inline;
+  height: 10%;
 }
 
-footer {
+header nav ul {
+  padding: 10px;
+}
 
+header span {
+  float: right;
+}
+
+header h2 {
+  display: inline;
+  margin: 10% 0%;
+}
+
+main { 
+  width: 50%;
+  float: left;
+  border: 1px black solid;
+}
+
+
+
+.bbcnav {
+  width: 100%;
+  border-right: 1px white solid;
+  padding: 10px;
+  display: block;
+}
+
+li.bbcnav {
+display: inline;
+}
+
+ul { 
+  margin: 0 auto;
+  text-align: left;
+}
+
+li.bbctrending {
+  border: 1px solid black;
+  width: 48%;
+  vertical-align: top;
+  float: left;
+  list-style: none;
+  margin: 1%;
+}
+section.bbctrending {
+  width: 50%;
+  display: inline-block;
+}
+
+.news {
+  width: 100%;
+}
+
+.news a {
+  text-decoration: none;
+  color: black;
+}
+
+.news li {
+  margin: 0px;
+  width: 32%;
+  display: inline-block;
 }
 
 /******************************************
