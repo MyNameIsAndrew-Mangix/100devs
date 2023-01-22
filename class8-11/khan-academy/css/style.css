@@ -22,19 +22,105 @@
 /*******************************************/
 
 body {
-
+font-family: 'Courier New', Courier, monospace;
 }
 
+::placeholder {
+  color: blue;
+  font-weight: 900;
+  background-color:lightgrey;
+}
+
+input {
+  border: none;
+  background-color: lightgrey;
+  border-radius: 5px;
+  padding: 5%;
+}
+
+li {
+  list-style: none;
+}
+
+section img {
+  float: left;
+  width: 30%;
+  margin-left: 20%;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
+section h1 {
+  padding-left: 40px;
+  margin-top: 8%;
+  float: left;
+  width: 25%;
+}
+section p {
+  padding-left: 40px;
+  float: left;
+  width: 30%;
+  font-size: 0.8rem;
 }
 
-footer {
+section ul {
+  float: left;
+  width: 40%;
+}
 
+section ul li {
+  float: left;
+  background-color: blue;
+  color: white;
+  font-size: 0.8em;
+  border-radius: 5px;
+  padding: 2%;
+  margin-right: 2%;
+  font-weight: 600;
+}
+
+header nav {
+border-bottom: 1px gray solid;
+}
+
+header nav ul {
+margin: 1% 15%;
+}
+
+header nav ul li{
+display: inline-block;
+padding-bottom: 1%;
+color: blue;
+font-weight: 900;
+}
+
+select {
+  width: 1em;
+  border: none;
+  color: blue;
+}
+
+.center {
+  width: 45%;
+  max-height: 10%;
+}
+
+.center img {
+  margin: 0% 30%;
+  width: 50%;
+  max-height: 10%;
+}
+
+.separator {
+  background-color:#F7F5F4;
+  float: left;
+  margin-top: 5%;
+  width: 100%;
+  text-align: center;
+  padding: 5% 0%;
+  font-size: 2em;
+  font-weight: 300;
 }
 
 /******************************************
