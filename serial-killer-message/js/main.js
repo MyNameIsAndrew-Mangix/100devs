@@ -40,15 +40,17 @@ function run() {
 function createMessage(container, message) {
   let newContent;
 
-  for (const c of message)
-  {
-    if (c === ' ')
-      changeWhitespace(container, message[i], false);
-    else
+  for (let i = 0; i < message.length; i++) {
+    const c = message[i];
     {
-      newContent = document.createElement("img");
-      newContent.src = alphabetMap.get(c);
-      container.appendChild(newContent);
+      if (c === ' ')
+        changeWhitespace(container, message[i], false);
+      else
+      {
+        newContent = document.createElement("img");
+        newContent.src = alphabetMap.get(c);
+        container.appendChild(newContent);
+      }
     }
   }
 }
