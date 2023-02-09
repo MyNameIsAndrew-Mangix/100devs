@@ -271,8 +271,9 @@ padding: 5%;
   footer {
     padding: 0%;
   }
+
   .logo {
-    margin-bottom: 25%;
+    margin-bottom: 15%;
   }
   .navLeft {
     margin-right: 0%;
@@ -282,7 +283,8 @@ padding: 5%;
     margin: 0%;
   }
   nav {
-    margin-top: 15%;
+    margin-top: 8%;
+    padding-bottom: 2%;
   }
   
   .donate {
